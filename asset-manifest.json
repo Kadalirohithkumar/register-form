@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/register-form/static/css/main.6359761a.css",
+    "main.js": "/register-form/static/js/main.3e30eae3.js",
+    "static/js/453.7789d424.chunk.js": "/register-form/static/js/453.7789d424.chunk.js",
+    "static/media/noukari-img-removebg-preview.png": "/register-form/static/media/noukari-img-removebg-preview.0a01ac0bbba376841f7e.png",
+    "static/media/logo.svg": "/register-form/static/media/logo.4f0b46e25f9c320664f3aacd64c37cb7.svg",
+    "index.html": "/register-form/index.html",
+    "main.6359761a.css.map": "/register-form/static/css/main.6359761a.css.map",
+    "main.3e30eae3.js.map": "/register-form/static/js/main.3e30eae3.js.map",
+    "453.7789d424.chunk.js.map": "/register-form/static/js/453.7789d424.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6359761a.css",
+    "static/js/main.3e30eae3.js"
+  ]
+}
