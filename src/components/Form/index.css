@@ -1,0 +1,135 @@
+.form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+
+}
+.work-status-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  
+  .work-status-option.selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  .input-field{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .suggestions{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .input-bar{
+    border-radius: 10px;
+    background-color: white;
+    padding: 13px 10px;
+    width: 100%;
+    border: 1px solid gray;
+
+  }
+  .work-status-options{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    color: black;
+  }
+  .suggested-city{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid gray;
+    margin: 7px;
+    color: gray;
+  }
+  .reg-button{
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+ 
+  
+  .reg-button.clicked {
+    background-color: #0056b3; /* Darker shade of blue */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .form {
+      padding: 10px;
+      width: 90%;
+      margin: auto; /* Center the form */
+    }
+    
+    .work-status-option {
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+    
+    .work-status-option.selected {
+      background-color: #007bff;
+      color: #fff;
+      border-color: #007bff;
+    }
+    
+    .input-field {
+      display: flex;
+      flex-direction: column;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    
+    .suggestions {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .input-bar {
+      border-radius: 10px;
+      background-color: white;
+      padding: 13px 10px;
+      width: 100%; /* Full width */
+      border: 1px solid gray;
+      box-sizing: border-box; /* Ensure padding and border are included in width */
+    }
+    
+    .work-status-options {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
+      color: black;
+    }
+    
+    .suggested-city {
+      padding: 6px;
+      margin: 4px;
+      font-size: 10px;
+    }
+    
+    .reg-button {
+      border-radius: 30px;
+      padding: 10px 20px;
+      margin-top: 10px; /* Add space between button and other elements */
+    }
+  
+   
+  }
+  

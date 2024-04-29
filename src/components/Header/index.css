@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+}
+.logo img{
+    width: 90px;
+
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-heading{
+    font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar{
+     
+        padding: 15px;
+ 
+    }
+    .logo img{
+        width: 60px;
+    
+    }
+    .options{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-heading{
+        font-size: 13px;
+    }
+}
